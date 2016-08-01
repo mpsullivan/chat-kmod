@@ -1,0 +1,5 @@
+<kmodule xmlns="http://jboss.org/kie/6.0.0/kmodule">
+    <kbase name="ws.salient.chat" packages="ws.salient.chat" eventProcessingMode="stream">
+        <ksession name="ws.salient.chat.session" type="stateful" default="true"/>
+    </kbase>
+</kmodule>
